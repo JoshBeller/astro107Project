@@ -45,12 +45,14 @@ def run_level():
     
     # Introduction dialogue
     intro_dialogue = [
-        "Stephen Hawking: Welcome, traveler!",
-        "Black holes are not entirely black! They emit radiation.",
-        "This effect, called Hawking Radiation, slowly evaporates black holes.",
-        "Use arrow keys to move the radiation channel.",
-        "Balance the energy flow to stabilize the Radiation Converter!"
+        "Stephen Hawking: Welcome, traveler! You stand at the edge of one of the greatest mysteries in physics—black holes!",
+        "Despite their name, black holes are not entirely black. They emit a faint thermal radiation, now known as Hawking Radiation.",
+        "This process causes black holes to slowly lose mass and eventually evaporate over immense timescales.",
+        "Your task is to control the flow of radiation and understand how this subtle effect influences black hole lifetimes.",
+        "Use the arrow keys to adjust the radiation channel and balance the energy flow!",
+        "Let’s see if you can stabilize the Radiation Converter!"
     ]
+
     intro_index = 0
     show_puzzle = False
     show_end_dialogue = False
@@ -62,9 +64,10 @@ def run_level():
 
     # End dialogue
     end_dialogue = [
-        "Well done! You have stabilized the Radiation Converter!",
-        "This balance of energy mirrors how black holes evaporate over time.",
-        "Hawking Radiation plays a crucial role in our understanding of the universe.",
+        "Stephen Hawking: Brilliant work! You have successfully stabilized the Radiation Converter!",
+        "Just like in real physics, maintaining an energy balance is key to understanding how black holes evolve over time.",
+        "Hawking Radiation challenges our understanding of black hole thermodynamics and connects quantum mechanics with gravity.",
+        "This discovery reshaped our view of the universe and hints at even deeper mysteries yet to be solved.",
         "Press ENTER to return to the main menu."
     ]
     

@@ -45,12 +45,13 @@ def run_level():
     
     # Introduction dialogue
     intro_dialogue = [
-        "Kip Thorne: Welcome, traveler!",
-        "To escape, you must assemble the Wormhole Generator.",
-        "Space and time can fold—if we learn how to use them.",
-        "Use arrow keys to collect all the missing pieces.",
-        "Avoid the gravitational distortions!"
+        "Kip Thorne: Welcome, traveler! You are about to explore the fascinating world of wormholes and spacetime warping!",
+        "To escape, you must assemble the Wormhole Generator, a theoretical gateway through space and time.",
+        "In Einstein’s relativity, spacetime can bend and fold—potentially creating shortcuts across the cosmos.",
+        "Use the arrow keys to collect all the missing pieces of the generator.",
+        "But beware! Gravitational distortions can throw you off course!"
     ]
+
     intro_index = 0
     show_puzzle = False
     game_completed = False
@@ -138,9 +139,10 @@ def run_level():
             pygame.draw.rect(screen, GREEN, player)
         else:
             completion_text = [
-                "You did it! The Wormhole Generator is complete!",
-                "Kip Thorne’s work helped us understand how wormholes might work.",
-                "This could be the key to interstellar travel!",
+                "Kip Thorne: Incredible work! The Wormhole Generator is complete!",
+                "My research helped us understand how wormholes might function within Einstein’s General Relativity.",
+                "Though we have yet to discover a stable, traversable wormhole, this concept could one day revolutionize interstellar travel!",
+                "The secrets of the universe are yours to explore—who knows what lies beyond?",
                 "Press ENTER to return to the main menu."
             ]
             

@@ -45,18 +45,19 @@ def run_level():
 
     # Dialogue
     dialogue = [
-        "Albert Einstein: Welcome, traveler!",
-        "I will teach you about gravitational lensing.",
-        "Light bends around massive objects like black holes.",
-        "Use the arrow keys to move left and right.",
-        "Press ENTER to start the minigame!"
+        "Albert Einstein: Ah, a curious traveler! Welcome to the realm of spacetime!",
+        "I will teach you about gravitational lensing, a phenomenon predicted by my theory of General Relativity.",
+        "Massive objects, like black holes, warp spacetime, bending the path of light around them.",
+        "This bending allows us to see distant galaxies hidden behind these cosmic giants.",
+        "Use the arrow keys to move left and right and observe how light behaves.",
+        "Press ENTER to start the minigame and test your understanding!"
     ]
     dialogue_index = 0
-    
     completion_dialogue = [
-        "Congratulations! You have reconstructed the Spacetime Lens!",
-        "Einstein’s work on General Relativity showed that gravity bends light.",
-        "This effect, called gravitational lensing, allows us to see galaxies hidden behind black holes.",
+        "Albert Einstein: Well done! You have reconstructed the Spacetime Lens!",
+        "Gravitational lensing is a crucial tool for astronomers, allowing us to study galaxies billions of light-years away.",
+        "This effect provided some of the strongest evidence for General Relativity and helps us map dark matter in the Universe.",
+        "With this knowledge, you can peer deeper into the cosmos than ever before!",
         "Press ENTER to return to the main menu."
     ]
     completion_index = 0

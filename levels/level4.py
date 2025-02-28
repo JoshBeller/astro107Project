@@ -44,12 +44,13 @@ def run_level():
     
     # Introduction dialogue
     intro_dialogue = [
-        "Andrea Ghez: Welcome, explorer!",
-        "I study the stars orbiting the supermassive black hole in our galaxy.",
-        "By tracking their movements, we map the unseen!",
-        "Use arrow keys to navigate through the starfield.",
-        "Find the correct path to the black hole!"
+        "Andrea Ghez: Welcome, explorer! You are about to uncover the secrets of the heart of our galaxy!",
+        "I study the orbits of stars around Sagittarius A*, the supermassive black hole at the center of the Milky Way.",
+        "By tracking their rapid movements, we map the unseen and prove the existence of this cosmic giant!",
+        "Use the arrow keys to navigate through the starfield and follow the stellar orbits.",
+        "Find the correct path leading to the black hole’s hidden presence!"
     ]
+
     intro_index = 0
     show_puzzle = False
     game_completed = False
@@ -120,9 +121,10 @@ def run_level():
             pygame.draw.rect(screen, GREEN, player)
         else:
             completion_text = [
-                "Well done! You've navigated the galactic map!",
-                "Andrea Ghez’s research helped confirm the supermassive black hole at the Milky Way’s center.",
-                "By mapping stellar orbits, we see the invisible!",
+                "Andrea Ghez: Outstanding work! You’ve successfully navigated the galactic map!",
+                "By studying stellar orbits, we reveal the invisible—proving that an enormous black hole lurks at the Milky Way’s core.",
+                "This discovery revolutionized our understanding of black holes and how they shape galaxies.",
+                "Your journey mirrors real astronomy—where precision and patience uncover the universe’s greatest mysteries!",
                 "Press ENTER to return to the main menu."
             ]
             

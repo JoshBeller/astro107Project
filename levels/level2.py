@@ -44,10 +44,11 @@ def run_level():
 
     # Introduction dialogue
     intro_dialogue = [
-        "Karl Schwarzschild: Welcome, traveler!",
-        "I discovered the Schwarzschild radius, which defines the event horizon of a black hole.",
-        "If an object's radius shrinks to this limit, it becomes a black hole!",
-        "Let's calculate the Schwarzschild radius for a given mass!"
+        "Karl Schwarzschild: Welcome, traveler! You are about to uncover the secrets of black holes!",
+        "Using Einstein’s equations, I derived the Schwarzschild radius—the boundary of a black hole, also known as the event horizon.",
+        "If an object's mass is compressed within this critical radius, not even light can escape!",
+        "Understanding this concept is key to grasping how black holes form.",
+        "Let’s calculate the Schwarzschild radius for a given mass and explore its implications!"
     ]
     intro_index = 0
     show_question = False
@@ -66,11 +67,13 @@ def run_level():
     answer_correct = None
 
     completion_dialogue = [
-        "Well done! The Schwarzschild radius defines the event horizon!",
-        "This is the boundary beyond which nothing can escape a black hole.",
-        "You have successfully stabilized the singularity core!",
+        "Karl Schwarzschild: Excellent work! You have successfully determined the Schwarzschild radius!",
+        "This radius defines the event horizon—the point of no return for anything falling into a black hole.",
+        "Your calculations mirror the foundation of modern black hole physics!",
+        "With this knowledge, you are now equipped to explore the mysteries of spacetime.",
         "Press ENTER to return to the main menu."
     ]
+
     
     clock = pygame.time.Clock()
     running = True

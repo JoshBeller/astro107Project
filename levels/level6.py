@@ -44,11 +44,11 @@ def run_level():
     
     # Introduction dialogue
     intro_dialogue = [
-        "Roger Penrose: Welcome, traveler!",
-        "This is the final test... Can you escape the singularity?",
-        "Gravity is shifting and warping all around you.",
-        "Navigate carefully through spacetime distortions!",
-        "Reach the wormhole exit before it's too late!"
+        "Roger Penrose: Welcome, traveler! You stand at the edge of the ultimate cosmic mystery—the singularity.",
+        "This is your final test... Can you escape the inescapable?",
+        "Inside a black hole, gravity warps spacetime so extremely that even light cannot escape.",
+        "Navigate carefully through the chaotic distortions, where time and space behave in unexpected ways!",
+        "Reach the wormhole exit before you cross the event horizon and are lost forever!"
     ]
     intro_index = 0
     show_puzzle = False
@@ -133,9 +133,10 @@ def run_level():
             pygame.draw.rect(screen, GREEN, player)
         else:
             completion_text = [
-                "You made it! The Wormhole is stable!",
-                "Roger Penrose’s work helped us understand singularities and black holes.",
-                "You have escaped beyond the event horizon!",
+                "Roger Penrose: Remarkable! You have stabilized the wormhole and escaped beyond the event horizon!",
+                "My work helped uncover the nature of singularities—regions of infinite density hidden within black holes.",
+                "Understanding these extreme objects is key to unraveling the mysteries of gravity and quantum mechanics.",
+                "You have ventured where few dare to imagine. What lies beyond remains an open question.",
                 "Press ENTER to continue to the final reflection."
             ]
             
